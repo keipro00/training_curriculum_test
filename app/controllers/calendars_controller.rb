@@ -20,7 +20,7 @@ class CalendarsController < ApplicationController
   end
 
   def get_week
-    week_days = ['(日)','(月)','(火)','(水)','(木)','(金)','(土)']
+    wdays = ['(日)','(月)','(火)','(水)','(木)','(金)','(土)']
 
     @todays_date = Date.today
 
